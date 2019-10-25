@@ -21,14 +21,14 @@ public class Program
         //Your job is to fix the errors and finish them.
         
         //Print "Hello, World" to console
-        System.out.printf(Hello, World)
+        System.out.printf("Hello, World");
         
         //Read two numbers, then print the sum of them
         System.out.printf("Please enter first number: ");
-        int num1 = Integer.parseInt(stdin.nextline());
+        int num1 = Integer.parseInt(stdin.nextLine());
         
         System.out.printf("Please enter first number: ");
-        int num1 = Integer.parseInt(stin.nextLine());
+        int num2 = Integer.parseInt(stdin.nextLine());
         
         int result = num1 + num2;
         
@@ -38,7 +38,16 @@ public class Program
         //For example, if the user says that their name is Jane and they are 25, the program should output:
         //"Jane, you will be 35 in 10 years time."
         
+        System.out.printf("Please enter your name: ");
         
+        String name = stdin.nextLine();
         
+        System.out.printf("Please enter your age: ");
+        
+        int age = Integer.parseInt(stdin.nextLine());
+        
+        int resultAge = age + 10;
+        
+        System.out.printf("%s, you will be %d in 10 years time.", name,resultAge);
     }
 }
